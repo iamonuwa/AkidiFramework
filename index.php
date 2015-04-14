@@ -8,12 +8,12 @@
 /**
  * Framework Constant Definitions
  */
-define('URL_PATH', 'http://localhost/uyosummit/');
+define('URL_PATH', 'http://localhost/akidiFramework/');
 define('SERVER','');
 define('SERVER_USER', '');
 define('SERVER_PASSWORD', '');
 define('DEFAULT_TEMPLATE', 'default/');
-define('SITETITLE', 'Uyo Summit');
+define('SITETITLE', 'Akidi Framework');
 
 
 
