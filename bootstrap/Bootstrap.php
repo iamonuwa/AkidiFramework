@@ -12,6 +12,7 @@ class Bootstrap {
                     /* @var $_GET type */
                     $url = isset($_GET['url']) ? $_GET['url'] : NULL;
                     $url = rtrim($url, '/');
+                    $url = filter_var($url, FILTER_SANITIZE_URL);
                     $url = explode('/', $url);
 
                     //print_r($url);
@@ -32,6 +33,7 @@ class Bootstrap {
                         return FALSE;
                     }
                     $controller = new $url[0];
+                    $controller->modelLoader($url[0]);
 
                     if (isset($url[2])) {
 			if (method_exists($controller, $url[1])) {

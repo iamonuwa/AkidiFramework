@@ -6,10 +6,10 @@
  * @author Onuwa Nnachi Isaac <i_onuwa4u@outlook.com>
  */
 
-class BaseModel {
+class BaseModel extends BaseController{
 
     function __construct() {
-        //$this->Database = new Database();
+        $this->Database = new Database();
     }
 
 }

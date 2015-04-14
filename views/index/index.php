@@ -1,8 +1,7 @@
 
 	   		<h1>We are currently working on something awesome. Stay tuned!</h1>
 
-	   		<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-
+	   		
 	   		<h5>Time Left Until Launching</h5>
 
 	   		<div id="counter" class="cf">

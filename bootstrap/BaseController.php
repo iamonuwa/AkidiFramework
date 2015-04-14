@@ -1,11 +1,5 @@
 <?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  * Description of BaseController
  *
@@ -16,5 +10,16 @@ class BaseController {
     function __construct() {
         $this->_view = new BaseView();
     }
+    public function modelLoader($model_name) {
+		
+		$path = 'models/model_'.$model_name.'.php';
+		
+		if (file_exists($path)) {
+			require 'models/model_'.$model_name.'.php';
+			
+			$modelName = 'Model_'.$name ;
+			$this->model = new $modelName();
+		}		
+	}
 
 }
