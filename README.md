@@ -31,5 +31,5 @@ d. Open the index.php file with a text editor and set your base URL and database
 
 
 Made With Love From Nigeria
-[Onuwa Nnachi Isaac](http://facebook.com/isaac.onuwa1)
+[Onuwa Nnachi Isaac](http://github.com/ionuwa)
 Developer

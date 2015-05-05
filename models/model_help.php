@@ -14,7 +14,8 @@
 class Model_Help extends BaseModel{
 
     function __construct() {
-        echo 'Help Model';
+        parent::__construct();
     }
+    
 
 }

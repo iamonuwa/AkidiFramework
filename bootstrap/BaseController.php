@@ -17,7 +17,7 @@ class BaseController {
 		if (file_exists($path)) {
 			require 'models/model_'.$model_name.'.php';
 			
-			$modelName = 'Model_'.$name ;
+			$modelName = 'Model_'.$model_name ;
 			$this->model = new $modelName();
 		}		
 	}
